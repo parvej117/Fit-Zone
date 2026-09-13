@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FitZone Fitness & Gym | আপনার সেরা রূপ গড়ে তুলুন</title>
+  <meta name="description" content="ফিটজোন ফিটনেস অ্যান্ড জিম - আধুনিক যন্ত্রপাতি, অভিজ্ঞ ট্রেইনার, এক্সারসাইজ গাইড, সাশ্রয়ী মেম্বারশিপ ও বিএমআই ট্র্যাকিং।" />
+  <meta property="og:title" content="FitZone Fitness & Gym | আপনার সেরা রূপ গড়ে তুলুন" />
+  <meta property="og:description" content="ফিটজোনে আপনার শারীরিক ও মানসিক রূপান্তর ঘটান। ব্যায়ামের সঠিক কৌশল জানুন এবং স্বাস্থ্যকর জীবন শুরু করুন।" />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts: Hind Siliguri (Bengali), Montserrat, Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. NAVIGATION BAR
+       ========================================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <!-- Gym Logo -->
+      <a href="#home" class="nav-logo" id="navLogo">
+        <i class="fa-solid fa-dumbbell"></i>
+        <span>Fit</span>Zone
+      </a>
+
+      <!-- Navigation Links -->
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">হোম</a></li>
+          <li><a href="#about" class="nav-link">আমাদের সম্পর্কে</a></li>
+          <li><a href="#exercises" class="nav-link">এক্সারসাইজ</a></li>
+          <li><a href="#trainers" class="nav-link">ট্রেইনারগণ</a></li>
+          <li><a href="#membership" class="nav-link">মেম্বারশিপ</a></li>
+          <li><a href="#bmi" class="nav-link">বিএমআই ক্যালকুলেটর</a></li>
+          <li><a href="#progress" class="nav-link">অগ্রগতি</a></li>
+          <li><a href="#team" class="nav-link">টিম</a></li>
+          <li><a href="#contact" class="nav-link">যোগাযোগ</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions: Theme Toggle & Mobile Hamburger -->
+      <div class="nav-actions">
+        <!-- Light / Dark Mode Toggle Button -->
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="থিম পরিবর্তন করুন" title="থিম পরিবর্তন করুন">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <!-- Mobile Hamburger Button -->
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="মেনু খুলুন বা বন্ধ করুন">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- =========================================================================
+       2. HERO SECTION
+       ========================================================================= -->
+  <section class="hero-section" id="home">
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-tag">
+          <i class="fa-solid fa-fire"></i> ফিটজোনে স্বাগতম
+        </div>
+        <h1 class="hero-title">
+          আপনার <span>সেরা রূপ</span> গড়ে তুলুন
+        </h1>
+        <p class="hero-desc">
+          আপনার শরীরকে রূপান্তর করুন, আত্মবিশ্বাস ও শারীরিক শক্তি বাড়ান। আধুনিক জিম সরঞ্জাম, পেশাদার প্রশিক্ষক এবং বৈজ্ঞানিক পুষ্টি পরিকল্পনার মাধ্যমে অর্জন করুন আপনার সর্বোচ্চ ফিটনেস লক্ষ্য।
+        </p>
+        <div class="hero-buttons">
+          <a href="#membership" class="btn btn-primary" id="heroJoinBtn">
+            <i class="fa-solid fa-bolt"></i> এখনই যুক্ত হোন
+          </a>
+          <a href="#exercises" class="btn btn-outline" id="heroExploreBtn">
+            <i class="fa-solid fa-dumbbell"></i> এক্সারসাইজ দেখুন
+          </a>
+        </div>
+        <div class="hero-features">
+          <div class="hero-feature-item">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>সার্টিফায়েড ট্রেইনার</span>
+          </div>
+          <div class="hero-feature-item">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>আধুনিক সরঞ্জাম</span>
+          </div>
+          <div class="hero-feature-item">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>ব্যক্তিগত ডায়েট প্ল্যান</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       3. GYM STATISTICS SECTION (Animated Counters)
+       ========================================================================= -->
+  <section class="stats-section" id="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="fa-solid fa-users"></i>
+          </div>
+          <div class="stat-text">
+            <div class="stat-number" data-target="500">0</div>
+            <div class="stat-label">সক্রিয় মেম্বার</div>
+          </div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+          <div class="stat-text">
+            <div class="stat-number" data-target="20">0</div>
+            <div class="stat-label">পেশাদার ট্রেইনার</div>
+          </div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="fa-solid fa-list-check"></i>
+          </div>
+          <div class="stat-text">
+            <div class="stat-number" data-target="50">0</div>
+            <div class="stat-label">ওয়ার্কআউট প্রোগ্রাম</div>
+          </div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <div class="stat-text">
+            <div class="stat-number" data-target="10">0</div>
+            <div class="stat-label">বছরের অভিজ্ঞতা</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       4. ABOUT SECTION
+       ========================================================================= -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <!-- About Left Column: Image with Badge -->
+        <div class="about-image-wrapper">
+          <img 
+            src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=1000&auto=format&fit=crop" 
+            alt="ফিটজোন জিম ওয়ার্কআউট এলাকা" 
+            class="about-image" 
+            loading="lazy" 
+          />
+          <div class="about-badge">
+            <i class="fa-solid fa-medal"></i>
+            <div class="about-badge-text">
+              <strong>১০+ বছর</strong>
+              <span>জীবন রূপান্তরে নিবেদিত</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- About Right Column: Information & Feature Cards -->
+        <div class="about-content">
+          <div class="section-tag">
+            <i class="fa-solid fa-heart-pulse"></i> ফিটজোন সম্পর্কে
+          </div>
+          <h2 class="section-title">কেন আমাদের <span>জিম বেছে নেবেন</span></h2>
+          <p class="about-desc">
+            ফিটজোনে আমরা বিশ্বাস করি ফিটনেস সাময়িক কোনো বিষয় নয়—এটি একটি সুস্থ ও সুন্দর জীবনধারা। সবার কাছে শারীরিক সুস্থতা ও অ্যাথলেটিক ফিটনেস পৌঁছে দেওয়ার লক্ষ্যে প্রতিষ্ঠিত আমাদের অত্যাধুনিক জিম সেন্টার, যেখানে রয়েছে বিশ্বমানের যন্ত্রপাতি ও দক্ষ ট্রেইনারের দিকনির্দেশনা।
+          </p>
+
+          <!-- 3 Feature Cards -->
+          <div class="about-features">
+            <!-- Feature 1 -->
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fa-solid fa-gears"></i>
+              </div>
+              <div class="feature-info">
+                <h4>আধুনিক সরঞ্জাম</h4>
+                <p>উচ্চমানের বায়োমেকানিক্যাল রেজিস্ট্যান্স স্টেশন, অলিম্পিক ফ্রি ওয়েটস ও স্মার্ট কার্ডিও মেশিন সমৃদ্ধ।</p>
+              </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fa-solid fa-dumbbell"></i>
+              </div>
+              <div class="feature-info">
+                <h4>পেশাদার ট্রেইনার</h4>
+                <p>সার্টিফায়েড স্ট্রেংথ ও কন্ডিশনিং বিশেষজ্ঞ যারা আপনার সঠিক ফর্ম নিশ্চিত করে ইনজুরি ছাড়াই কাঙ্ক্ষিত ফলাফল এনে দেবে।</p>
+              </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <div class="feature-info">
+                <h4>স্বাস্থ্যকর পরিবেশ</h4>
+                <p>সম্পূর্ণ পরিষ্কার-পরিচ্ছন্ন, জীবাণুমুক্ত এবং এয়ার-পিউরিফাইড ট্রেনিং জোন যা আপনাকে রাখবে উদ্যমী ও সতেজ।</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       5. EXERCISE SECTION (Dynamic Filtering)
+       ========================================================================= -->
+  <section class="section section-alt" id="exercises">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <i class="fa-solid fa-fire-flame-curved"></i> এক্সারসাইজ লাইব্রেরি
+        </div>
+        <h2 class="section-title">আমাদের <span>ওয়ার্কআউটসমূহ দেখুন</span></h2>
+        <p class="section-subtitle">
+          পেশী গঠন, চর্বি পোড়ানো এবং দীর্ঘমেয়াদী শারীরিক সক্ষমতার জন্য কার্যকর ব্যায়ামের সঠিক নিয়ম ও কৌশল জেনে নিন।
+        </p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-buttons" id="exerciseFilterBtns">
+        <button class="filter-btn active" data-filter="all">সকল</button>
+        <button class="filter-btn" data-filter="chest">বুক (Chest)</button>
+        <button class="filter-btn" data-filter="back">পিঠ (Back)</button>
+        <button class="filter-btn" data-filter="legs">পা (Legs)</button>
+        <button class="filter-btn" data-filter="shoulders">কাঁধ (Shoulders)</button>
+        <button class="filter-btn" data-filter="core">কোর (Core)</button>
+      </div>
+
+      <!-- Exercise Cards Grid -->
+      <div class="exercise-grid" id="exerciseGrid">
+        <!-- 1. Push Up (Chest) -->
+        <div class="exercise-card" data-category="chest">
+          <div class="exercise-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&auto=format&fit=crop" alt="পুশ আপ ব্যায়াম" class="exercise-img" loading="lazy" />
+            <div class="exercise-badges">
+              <span class="badge badge-muscle">বুক (Chest)</span>
+              <span class="badge badge-diff-beginner">শিক্ষানবিস</span>
+            </div>
+          </div>
+          <div class="exercise-content">
+            <h3 class="exercise-name">পুশ আপ (Push Up)</h3>
+            <p class="exercise-desc">শরীরের উপরের অংশের পুশিং শক্তি, বুকের পেশী এবং কোরের ভারসাম্য বাড়াতে সেরা বডিওয়েট ব্যায়াম।</p>
+            <div class="exercise-footer">
+              <span class="exercise-reps"><i class="fa-solid fa-repeat"></i> ৩ সেট × ১৫ বার</span>
+              <button class="btn btn-outline-dark btn-sm view-exercise-btn" data-name="Push Up">কৌশল দেখুন</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Squat (Legs) -->
+        <div class="exercise-card" data-category="legs">
+          <div class="exercise-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=800&auto=format&fit=crop" alt="স্কোয়াট ব্যায়াম" class="exercise-img" loading="lazy" />
+            <div class="exercise-badges">
+              <span class="badge badge-muscle">পা (Legs)</span>
+              <span class="badge badge-diff-intermediate">মধ্যবর্তী</span>
+            </div>
+          </div>
+          <div class="exercise-content">
+            <h3 class="exercise-name">স্কোয়াট (Squat)</h3>
+            <p class="exercise-desc">শরীরের নিচের অংশের শক্তি ও দৃঢ়তার ভিত্তি, যা কোয়াড্রিসেপস, হ্যামস্ট্রিংস এবং গ্লুটস তৈরি করে।</p>
+            <div class="exercise-footer">
+              <span class="exercise-reps"><i class="fa-solid fa-repeat"></i> ৪ সেট × ১০ বার</span>
+              <button class="btn btn-outline-dark btn-sm view-exercise-btn" data-name="Squat">কৌশল দেখুন</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Bench Press (Chest) -->
+        <div class="exercise-card" data-category="chest">
+          <div class="exercise-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=800&auto=format&fit=crop" alt="বেঞ্চ প্রেস ব্যায়াম" class="exercise-img" loading="lazy" />
+            <div class="exercise-badges">
+              <span class="badge badge-muscle">বুক (Chest)</span>
+              <span class="badge badge-diff-advanced">উন্নত</span>
+            </div>
+          </div>
+          <div class="exercise-content">
+            <h3 class="exercise-name">বেঞ্চ প্রেস (Bench Press)</h3>
+            <p class="exercise-desc">বুকের পেশী চওড়া ও শক্তিশালী করা এবং ট্রাইসেপসের শক্তি বাড়ানোর প্রধান অলিম্পিক বারবেল ব্যায়াম।</p>
+            <div class="exercise-footer">
+              <span class="exercise-reps"><i class="fa-solid fa-repeat"></i> ৪ সেট × ৮ বার</span>
+              <button class="btn btn-outline-dark btn-sm view-exercise-btn" data-name="Bench Press">কৌশল দেখুন</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Deadlift (Back) -->
+        <div class="exercise-card" data-category="back">
+          <div class="exercise-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=800&auto=format&fit=crop" alt="ডেডলিফ্ট ব্যায়াম" class="exercise-img" loading="lazy" />
+            <div class="exercise-badges">
+              <span class="badge badge-muscle">পিঠ (Back)</span>
+              <span class="badge badge-diff-advanced">উন্নত</span>
+            </div>
+          </div>
+          <div class="exercise-content">
+            <h3 class="exercise-name">ডেডলিফ্ট (Deadlift)</h3>
+            <p class="exercise-desc">পোস্টেরিয়র চেইনের রাজা, যা পিঠের নিচের অংশ, গ্লুটস, হ্যামস্ট্রিংস এবং গ্রিপ শক্তি বাড়ায়।</p>
+            <div class="exercise-footer">
+              <span class="exercise-reps"><i class="fa-solid fa-repeat"></i> ৩ সেট × ৬ বার</span>
+              <button class="btn btn-outline-dark btn-sm view-exercise-btn" data-name="Deadlift">কৌশল দেখুন</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Pull Up (Back) -->
+        <div class="exercise-card" data-category="back">
+          <div class="exercise-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1598971639058-fab3c3109a00?q=80&w=800&auto=format&fit=crop" alt="পুল আপ ব্যায়াম" class="exercise-img" loading="lazy" />
+            <div class="exercise-badges">
+              <span class="badge badge-muscle">পিঠ (Back)</span>
+              <span class="badge badge-diff-intermediate">মধ্যবর্তী</span>
+            </div>
+          </div>
+          <div class="exercise-content">
+            <h3 class="exercise-name">পুল আপ (Pull Up)</h3>
+            <p class="exercise-desc">শরীরের ওজনে পিঠ চওড়া (V-শেপ) করা এবং বাইসেপসের দৃঢ়তা বাড়ানোর সেরা পুলিং ব্যায়াম।</p>
+            <div class="exercise-footer">
+              <span class="exercise-reps"><i class="fa-solid fa-repeat"></i> ৩ সেট × ১০ বার</span>
+              <button class="btn btn-outline-dark btn-sm view-exercise-btn" data-name="Pull Up">কৌশল দেখুন</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Plank (Core) -->
+        <div class="exercise-card" data-category="core">
+          <div class="exercise-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1566241142559-40e1dab266c6?q=80&w=800&auto=format&fit=crop" alt="প্ল্যাঙ্ক ব্যায়াম" class="exercise-img" loading="lazy" />
+            <div class="exercise-badges">
+              <span class="badge badge-muscle">কোর (Core)</span>
+              <span class="badge badge-diff-beginner">শিক্ষানবিস</span>
+            </div>
+          </div>
+          <div class="exercise-content">
+            <h3 class="exercise-name">প্ল্যাঙ্ক (Plank)</h3>
+            <p class="exercise-desc">পেটের অভ্যন্তরীণ পেশী শক্ত করতে, মেরুদণ্ডের ভারসাম্য এবং সম্পূর্ণ কোরের স্ট্যামিনা বাড়াতে কার্যকর।</p>
+            <div class="exercise-footer">
+              <span class="exercise-reps"><i class="fa-solid fa-stopwatch"></i> ৩ সেট × ৬০ সেকেন্ড</span>
+              <button class="btn btn-outline-dark btn-sm view-exercise-btn" data-name="Plank">কৌশল দেখুন</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Lunges (Legs) -->
+        <div class="exercise-card" data-category="legs">
+          <div class="exercise-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=800&auto=format&fit=crop" alt="লাঞ্জেস ব্যায়াম" class="exercise-img" loading="lazy" />
+            <div class="exercise-badges">
+              <span class="badge badge-muscle">পা (Legs)</span>
+              <span class="badge badge-diff-beginner">শিক্ষানবিস</span>
+            </div>
+          </div>
+          <div class="exercise-content">
+            <h3 class="exercise-name">লাঞ্জেস (Lunges)</h3>
+            <p class="exercise-desc">পায়ের প্রতিটি পায়ের আলাদা ভারসাম্য, কোয়াডস এবং হিপ স্ট্যাবিলাইজারের শক্তি বাড়ানোর চমৎকার ব্যায়াম।</p>
+            <div class="exercise-footer">
+              <span class="exercise-reps"><i class="fa-solid fa-repeat"></i> ৩ সেট × ১২ বার</span>
+              <button class="btn btn-outline-dark btn-sm view-exercise-btn" data-name="Lunges">কৌশল দেখুন</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Shoulder Press (Shoulders) -->
+        <div class="exercise-card" data-category="shoulders">
+          <div class="exercise-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=800&auto=format&fit=crop" alt="শোল্ডার প্রেস ব্যায়াম" class="exercise-img" loading="lazy" />
+            <div class="exercise-badges">
+              <span class="badge badge-muscle">কাঁধ (Shoulders)</span>
+              <span class="badge badge-diff-intermediate">মধ্যবর্তী</span>
+            </div>
+          </div>
+          <div class="exercise-content">
+            <h3 class="exercise-name">শোল্ডার প্রেস (Shoulder Press)</h3>
+            <p class="exercise-desc">কাঁধের ডেল্টয়েড পেশী সুগঠিত করতে এবং মাথার উপরে ওজন তোলার শক্তি বৃদ্ধিতে আদর্শ ব্যায়াম।</p>
+            <div class="exercise-footer">
+              <span class="exercise-reps"><i class="fa-solid fa-repeat"></i> ৪ সেট × ১০ বার</span>
+              <button class="btn btn-outline-dark btn-sm view-exercise-btn" data-name="Shoulder Press">কৌশল দেখুন</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       6. TRAINER PROFILES SECTION
+       ========================================================================= -->
+  <section class="section" id="trainers">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <i class="fa-solid fa-user-group"></i> অভিজ্ঞ প্রশিক্ষক
+        </div>
+        <h2 class="section-title">আমাদের <span>পেশাদার ট্রেইনারগণ</span></h2>
+        <p class="section-subtitle">
+          বিশ্বমানের ফিটনেস বিশেষজ্ঞদের সাথে প্রশিক্ষণ নিন এবং বিজ্ঞানসম্মত নিয়মে আপনার ফিটনেস লক্ষ্য নিরাপদে অর্জন করুন।
+        </p>
+      </div>
+
+      <div class="trainers-grid">
+        <!-- Trainer 1: John Smith -->
+        <div class="trainer-card">
+          <div class="trainer-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=600&auto=format&fit=crop" alt="ট্রেইনার জন স্মিথ" class="trainer-img" loading="lazy" />
+            <div class="trainer-socials-overlay">
+              <a href="#trainers" class="social-icon-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#trainers" class="social-icon-btn" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#trainers" class="social-icon-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="trainer-info">
+            <h3 class="trainer-name">জন স্মিথ (John Smith)</h3>
+            <div class="trainer-role">স্ট্রেংথ ও কন্ডিশনিং কোচ</div>
+            <span class="trainer-exp">৮+ বছরের অভিজ্ঞতা</span>
+            <p class="trainer-bio">পাওয়ারলিফটিং চ্যাম্পিয়ন; বারবেল মেকানিক্স, পেশী গঠন এবং ইনজুরি মুক্ত ওয়ার্কআউটে দক্ষ।</p>
+          </div>
+        </div>
+
+        <!-- Trainer 2: David Miller -->
+        <div class="trainer-card">
+          <div class="trainer-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=600&auto=format&fit=crop" alt="ট্রেইনার ডেভিড মিলার" class="trainer-img" loading="lazy" />
+            <div class="trainer-socials-overlay">
+              <a href="#trainers" class="social-icon-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#trainers" class="social-icon-btn" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#trainers" class="social-icon-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="trainer-info">
+            <h3 class="trainer-name">ডেভিড মিলার (David Miller)</h3>
+            <div class="trainer-role">ক্যালিস্থেনিক্স ও মোবিলিটি ট্রেইনার</div>
+            <span class="trainer-exp">৬+ বছরের অভিজ্ঞতা</span>
+            <p class="trainer-bio">ভিনিয়াসা ফ্লো, গভীর মোবিলিটি ও পোস্টার সংশোধনে পারদর্শী যা শরীরকে রাখে ব্যথামুক্ত ও সতেজ।</p>
+          </div>
+        </div>
+
+        <!-- Trainer 3: Mike Johnson -->
+        <div class="trainer-card">
+          <div class="trainer-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1534367507873-d2d7e24c797f?q=80&w=600&auto=format&fit=crop" alt="ট্রেইনার মাইক জনসন" class="trainer-img" loading="lazy" />
+            <div class="trainer-socials-overlay">
+              <a href="#trainers" class="social-icon-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#trainers" class="social-icon-btn" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#trainers" class="social-icon-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="trainer-info">
+            <h3 class="trainer-name">মাইক জনসন (Mike Johnson)</h3>
+            <div class="trainer-role">ফিটনেস ও এইচআইআইটি (HIIT) কোচ</div>
+            <span class="trainer-exp">১০+ বছরের অভিজ্ঞতা</span>
+            <p class="trainer-bio">হাই-ইনটেনসিটি মেটাবলিক কন্ডিশনিং, ক্ষিপ্রতা ও দ্রুত চর্বি কমানোর বিশেষ কৌশল প্রণেতা।</p>
+          </div>
+        </div>
+
+        <!-- Trainer 4: Alex Rodriguez -->
+        <div class="trainer-card">
+          <div class="trainer-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1549476464-37392f717541?q=80&w=600&auto=format&fit=crop" alt="ট্রেইনার অ্যালেক্স রদ্রিগেজ" class="trainer-img" loading="lazy" />
+            <div class="trainer-socials-overlay">
+              <a href="#trainers" class="social-icon-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#trainers" class="social-icon-btn" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#trainers" class="social-icon-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="trainer-info">
+            <h3 class="trainer-name">অ্যালেক্স রদ্রিগেজ (Alex Rodriguez)</h3>
+            <div class="trainer-role">পুষ্টি ও বডিবিল্ডিং কোচ</div>
+            <span class="trainer-exp">৭+ বছরের অভিজ্ঞতা</span>
+            <p class="trainer-bio">সার্টিফায়েড স্পোর্টস নিউট্রিশনিস্ট; অ্যাথলিটদের সঠিক পুষ্টি ও সুস্থ খাদ্যাভ্যাস গড়ে তুলতে সাহায্য করেন।</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       7. MEMBERSHIP PLANS
+       ========================================================================= -->
+  <section class="section section-alt" id="membership">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <i class="fa-solid fa-gem"></i> প্যাকেজসমূহ
+        </div>
+        <h2 class="section-title">সাশ্রয়ী <span>মেম্বারশিপ প্ল্যান</span></h2>
+        <p class="section-subtitle">
+          স্বচ্ছ মূল্যতালিকা, কোনো লুকানো চার্জ নেই। আপনার ফিটনেস যাত্রার জন্য সেরা মেম্বারশিপ প্ল্যানটি বেছে নিন।
+        </p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Plan 1: Basic -->
+        <div class="pricing-card">
+          <div class="plan-header">
+            <h3 class="plan-name">বেসিক (Basic)</h3>
+            <span class="plan-duration">১ মাসের প্ল্যান</span>
+            <div class="plan-price">
+              <span class="currency">৳</span>
+              <span class="amount">২,৫০০</span>
+              <span class="period">/ মাস</span>
+            </div>
+          </div>
+          <ul class="plan-features">
+            <li><i class="fa-solid fa-check"></i> নিয়মিত জিম ফ্লোর এক্সেস</li>
+            <li><i class="fa-solid fa-check"></i> ফ্রি ওয়েটস ও কার্ডিও স্টেশন সুবিধা</li>
+            <li><i class="fa-solid fa-check"></i> লকার রুম ও শাওয়ার ব্যবহার</li>
+            <li><i class="fa-solid fa-check"></i> ১টি ফ্রি ফিটনেস পরামর্শ</li>
+            <li><i class="fa-solid fa-check"></i> ফিটজোন মোবাইল ওয়ার্কআউট অ্যাপ</li>
+          </ul>
+          <button class="btn btn-outline-dark btn-block choose-plan-btn" data-plan="Basic" data-price="৳২,৫০০/মাস">
+            প্ল্যান বেছে নিন
+          </button>
+        </div>
+
+        <!-- Plan 2: Standard (Featured) -->
+        <div class="pricing-card featured">
+          <div class="featured-badge">জনপ্রিয়</div>
+          <div class="plan-header">
+            <h3 class="plan-name">স্ট্যান্ডার্ড (Standard)</h3>
+            <span class="plan-duration">৩ মাসের প্ল্যান</span>
+            <div class="plan-price">
+              <span class="currency">৳</span>
+              <span class="amount">৫,৫০০</span>
+              <span class="period">/ মাস</span>
+            </div>
+          </div>
+          <ul class="plan-features">
+            <li><i class="fa-solid fa-check"></i> সম্পূর্ণ ২৪/৭ জিম ফ্লোর এক্সেস</li>
+            <li><i class="fa-solid fa-check"></i> সপ্তাহে ২টি পার্সোনাল ট্রেনিং সেশন</li>
+            <li><i class="fa-solid fa-check"></i> কাস্টমাইজড ডায়েট ও পুষ্টি প্ল্যান</li>
+            <li><i class="fa-solid fa-check"></i> আনলিমিটেড ইয়োগা ও স্পিন ক্লাস</li>
+            <li><i class="fa-solid fa-check"></i> মাসিক বডি কম্পোজিশন স্ক্যান</li>
+          </ul>
+          <button class="btn btn-primary btn-block choose-plan-btn" data-plan="Standard" data-price="৳৫,৫০০/মাস">
+            প্ল্যান বেছে নিন
+          </button>
+        </div>
+
+        <!-- Plan 3: Premium -->
+        <div class="pricing-card">
+          <div class="plan-header">
+            <h3 class="plan-name">প্রিমিয়াম (Premium)</h3>
+            <span class="plan-duration">১২ মাসের প্ল্যান</span>
+            <div class="plan-price">
+              <span class="currency">৳</span>
+              <span class="amount">৮,৫০০</span>
+              <span class="period">/ মাস</span>
+            </div>
+          </div>
+          <ul class="plan-features">
+            <li><i class="fa-solid fa-check"></i> আনলিমিটেড ভিআইপি জিম এক্সেস</li>
+            <li><i class="fa-solid fa-check"></i> ডেডিকেটেড ১-অন-১ পার্সোনাল ট্রেইনার</li>
+            <li><i class="fa-solid fa-check"></i> কাস্টম ডায়েট ও সাপ্লিমেন্ট গাইডলাইন</li>
+            <li><i class="fa-solid fa-check"></i> ২৪/৭ ট্রেইনার চ্যাট ও সাপোর্ট</li>
+            <li><i class="fa-solid fa-check"></i> স্টিম বাথ ও ক্রায়ো লাউঞ্জ এক্সেস</li>
+          </ul>
+          <button class="btn btn-outline-dark btn-block choose-plan-btn" data-plan="Premium" data-price="৳৮,৫০০/মাস">
+            প্ল্যান বেছে নিন
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       8. BMI CALCULATOR SECTION
+       ========================================================================= -->
+  <section class="section" id="bmi">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <i class="fa-solid fa-calculator"></i> স্বাস্থ্য পরিমাপক
+        </div>
+        <h2 class="section-title">আপনার <span>বিএমআই (BMI) হিসেব করুন</span></h2>
+        <p class="section-subtitle">
+          আপনার শারীরিক অনুপাত দ্রুত যাচাই করুন। নিচে উচ্চতা ও ওজন দিয়ে আপনার বডি ম্যাস ইনডেক্স, স্বাস্থ্য বিভাগ এবং পরামর্শ জেনে নিন।
+        </p>
+      </div>
+
+      <div class="bmi-wrapper">
+        <!-- Left Column: Input Form -->
+        <div class="bmi-form-area">
+          <h3>আপনার পরিমাপ দিন</h3>
+          <p>বডি ম্যাস ইনডেক্স (BMI) হলো উচ্চতার সাথে ওজনের অনুপাত মাপার একটি বৈজ্ঞানিকভাবে স্বীকৃত আন্তর্জাতিক পদ্ধতি।</p>
+
+          <form id="bmiForm">
+            <!-- Height input -->
+            <div class="form-group">
+              <label for="heightInput" class="form-label">উচ্চতা (Height)</label>
+              <div class="input-with-unit">
+                <input 
+                  type="number" 
+                  id="heightInput" 
+                  class="form-control" 
+                  placeholder="উদাঃ ১৭৫" 
+                  min="50" 
+                  max="250" 
+                  step="0.1" 
+                  required 
+                />
+                <span class="input-unit">সেমি</span>
+              </div>
+            </div>
+
+            <!-- Weight input -->
+            <div class="form-group">
+              <label for="weightInput" class="form-label">ওজন (Weight)</label>
+              <div class="input-with-unit">
+                <input 
+                  type="number" 
+                  id="weightInput" 
+                  class="form-control" 
+                  placeholder="উদাঃ ৭০" 
+                  min="20" 
+                  max="300" 
+                  step="0.1" 
+                  required 
+                />
+                <span class="input-unit">কেজি</span>
+              </div>
+            </div>
+
+            <!-- Error message container -->
+            <div class="error-message" id="bmiError"></div>
+
+            <!-- Buttons -->
+            <div class="bmi-btn-group">
+              <button type="submit" class="btn btn-primary" id="calculateBmiBtn">
+                <i class="fa-solid fa-calculator"></i> বিএমআই হিসেব করুন
+              </button>
+              <button type="button" class="btn btn-outline-dark" id="bmiResetBtn">
+                <i class="fa-solid fa-rotate-left"></i> রিসেট
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Right Column: Result Display -->
+        <div class="bmi-result-area" id="bmiResultContainer">
+          <div class="bmi-placeholder" id="bmiPlaceholder">
+            <i class="fa-solid fa-scale-balanced"></i>
+            <h4>গণনার জন্য প্রস্তুত</h4>
+            <p>আপনার উচ্চতা এবং ওজন লিখে "বিএমআই হিসেব করুন" বাটনে ক্লিক করুন।</p>
+          </div>
+
+          <div class="bmi-output" id="bmiOutput">
+            <span class="section-tag" style="margin-bottom: 0;">আপনার ফলাফল</span>
+            <div class="bmi-score-box">
+              <div class="bmi-val" id="bmiScore">--</div>
+              <div class="bmi-category-badge" id="bmiCategoryBadge">স্বাভাবিক</div>
+            </div>
+            <p class="bmi-advice" id="bmiAdvice">আপনার ফলাফলের বিস্তারিত এখানে প্রদর্শিত হবে।</p>
+
+            <!-- Quick Reference Table -->
+            <div class="bmi-reference-table">
+              <div class="ref-item">
+                <strong>ওজন কম (Underweight)</strong>
+                <span>&lt; ১৮.৫</span>
+              </div>
+              <div class="ref-item">
+                <strong>স্বাভাবিক (Normal)</strong>
+                <span>১৮.৫ - ২৪.৯</span>
+              </div>
+              <div class="ref-item">
+                <strong>অতিরিক্ত ওজন (Overweight)</strong>
+                <span>২৫ - ২৯.৯</span>
+              </div>
+              <div class="ref-item">
+                <strong>স্থূলতা (Obese)</strong>
+                <span>&ge; ৩০.০</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       9. WORKOUT PROGRESS SECTION
+       ========================================================================= -->
+  <section class="section section-alt" id="progress">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <i class="fa-solid fa-chart-line"></i> পারফরম্যান্স ড্যাশবোর্ড
+        </div>
+        <h2 class="section-title">আপনার <span>ওয়ার্কআউট অগ্রগতি ট্র্যাক করুন</span></h2>
+        <p class="section-subtitle">
+          ধারাবাহিকতাই আসল চাবিকাঠি। আপনার সাপ্তাহিক ওয়ার্কআউট, ক্যালোরি বার্ন, অনুশীলনের সময় এবং লক্ষ্য পূরণ একনজরে পর্যবেক্ষণ করুন।
+        </p>
+      </div>
+
+      <div class="progress-grid">
+        <!-- Card 1: Weekly Workouts -->
+        <div class="progress-card">
+          <div class="progress-card-header">
+            <div class="progress-icon red">
+              <i class="fa-solid fa-calendar-check"></i>
+            </div>
+            <span class="progress-percentage">৮০%</span>
+          </div>
+          <h3 class="progress-title">সাপ্তাহিক ওয়ার্কআউট</h3>
+          <div class="progress-stats">৫টির মধ্যে ৪টি সেশন সম্পন্ন</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar-fill red" data-width="80"></div>
+          </div>
+        </div>
+
+        <!-- Card 2: Calories Burned -->
+        <div class="progress-card">
+          <div class="progress-card-header">
+            <div class="progress-icon orange">
+              <i class="fa-solid fa-fire"></i>
+            </div>
+            <span class="progress-percentage">৮১%</span>
+          </div>
+          <h3 class="progress-title">ক্যালোরি বার্ন</h3>
+          <div class="progress-stats">২,৮৫০ / ৩,৫০০ কিলোক্যালোরি বার্ন হয়েছে</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar-fill orange" data-width="81"></div>
+          </div>
+        </div>
+
+        <!-- Card 3: Training Hours -->
+        <div class="progress-card">
+          <div class="progress-card-header">
+            <div class="progress-icon blue">
+              <i class="fa-solid fa-stopwatch"></i>
+            </div>
+            <span class="progress-percentage">৮২%</span>
+          </div>
+          <h3 class="progress-title">প্রশিক্ষণের সময়</h3>
+          <div class="progress-stats">৬.৫ / ৮.০ ঘণ্টা সম্পন্ন হয়েছে</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar-fill blue" data-width="82"></div>
+          </div>
+        </div>
+
+        <!-- Card 4: Fitness Goal -->
+        <div class="progress-card">
+          <div class="progress-card-header">
+            <div class="progress-icon green">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <span class="progress-percentage">৭৫%</span>
+          </div>
+          <h3 class="progress-title">মাসিক ফিটনেস লক্ষ্য</h3>
+          <div class="progress-stats">৭৫% মাসিক লক্ষ্য অর্জিত হয়েছে</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar-fill green" data-width="75"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       10. TESTIMONIALS SECTION
+       ========================================================================= -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <i class="fa-solid fa-comment-dots"></i> সফলতার গল্প
+        </div>
+        <h2 class="section-title">মেম্বারদের <span>মতামত ও অভিজ্ঞতা</span></h2>
+        <p class="section-subtitle">
+          বাস্তব গল্প, বাস্তব রূপান্তর। জেনে নিন কীভাবে ফিটজোন সাধারণ মানুষদের অসাধারণ স্বাস্থ্য সাফল্যে পৌঁছাতে সাহায্য করেছে।
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Review 1 -->
+        <div class="testimonial-card">
+          <div>
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="testimonial-text">
+              "ফিটজোনে মাত্র ৫ মাসে আমি ১৮ কেজি ওজন কমিয়েছি! ট্রেইনার জনের তত্ত্বাবধানে ডেডলিফ্ট ও স্কোয়াটের সঠিক নিয়ম শিখেছি এবং তাদের ডায়েট প্ল্যান আমাকে সারাদিন কর্মক্ষম রেখেছে।"
+            </p>
+          </div>
+          <div>
+            <div class="testimonial-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" alt="ডেভিড মিলার" class="author-img" loading="lazy" />
+              <div>
+                <h4 class="author-name">তানভীর আহমেদ</h4>
+                <span class="author-role">মেম্বার (১ বছর ধরে)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="testimonial-card">
+          <div>
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="testimonial-text">
+              "আমার দেখা সবচেয়ে পরিষ্কার এবং আন্তরিক জিম। ট্রেইনার ডেভিডের মোবিলিটি ক্লাসের পর আমার দীর্ঘদিনের পিঠের ব্যথা পুরোপুরি সেরে গেছে। এখানকার পরিবেশ ব্যায়ামে বাড়তি অনুপ্রেরণা দেয়।"
+            </p>
+          </div>
+          <div>
+            <div class="testimonial-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=200&auto=format&fit=crop" alt="হাসান মাহমুদ" class="author-img" loading="lazy" />
+              <div>
+                <h4 class="author-name">হাসান মাহমুদ</h4>
+                <span class="author-role">মেম্বার (২ বছর ধরে)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="testimonial-card">
+          <div>
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="testimonial-text">
+              "মাইকের সাথে পার্সোনাল ট্রেনিং প্রোগ্রাম আমার শরীরকে সম্পূর্ণ বদলে দিয়েছে। ২৪/৭ জিম সুবিধা আমার ব্যস্ত রুটিনের সাথে একদম মিলে যায়, আর অলিম্পিক গ্রেড ইকুইপমেন্ট অতুলনীয়।"
+            </p>
+          </div>
+          <div>
+            <div class="testimonial-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop" alt="রাকিবুল হাসান" class="author-img" loading="lazy" />
+              <div>
+                <h4 class="author-name">রাকিবুল হাসান</h4>
+                <span class="author-role">মেম্বার (৮ মাস ধরে)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       11. CONTACT US SECTION
+       ========================================================================= -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <i class="fa-solid fa-envelope"></i> যোগাযোগ করুন
+        </div>
+        <h2 class="section-title">ফিটজোনের সাথে <span>যোগাযোগ</span></h2>
+        <p class="section-subtitle">
+          মেম্বারশিপ, পার্সোনাল ট্রেনিং বা সুযোগ-সুবিধা সম্পর্কে কোনো প্রশ্ন আছে? আমাদের বার্তা পাঠান, দ্রুত উত্তর দেওয়া হবে।
+        </p>
+      </div>
+
+      <div class="contact-wrapper">
+        <!-- Contact Left Column: Info Details -->
+        <div class="contact-info-panel">
+          <h3>আজই শুরু হোক আপনার যাত্রা</h3>
+          <p>
+            আমাদের জিম ঘুরে দেখতে সরাসরি চলে আসুন অথবা মেম্বার সাপোর্ট টিমের সাথে যোগাযোগ করুন। আপনার ফিটনেস যাত্রার প্রতিটি পদক্ষেপে আমরা পাশে আছি।
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-detail-text">
+                <h4>আমাদের ঠিকানা</h4>
+                <span>১২৪ ফিটনেস বুলেভার্ড, ধানমন্ডি, ঢাকা ১২০৯</span>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-detail-text">
+                <h4>ফোন নম্বর</h4>
+                <span>+৮৮০ ১৭০০-১২৩৪৫৬ / +৮৮০ ২-৯৮৭৬৫৪৩</span>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-detail-text">
+                <h4>ইমেইল এড্রেস</h4>
+                <span>contact@fitzonegym.com</span>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div class="contact-detail-text">
+                <h4>খোলা থাকার সময়</h4>
+                <span>সোম-শুক্র: ভোর ৫:০০ – রাত ১১:০০ | শনি-রবি: সকাল ৬:০০ – রাত ৯:০০</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Right Column: Form -->
+        <div class="contact-form-panel">
+          <div class="form-alert" id="contactAlert"></div>
+
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <!-- Full Name -->
+              <div class="form-group">
+                <label for="contactName" class="form-label">আপনার পূর্ণ নাম *</label>
+                <input type="text" id="contactName" class="form-control" placeholder="আপনার নাম লিখুন" required />
+                <div class="field-error-msg" id="contactNameError"></div>
+              </div>
+
+              <!-- Email -->
+              <div class="form-group">
+                <label for="contactEmail" class="form-label">ইমেইল এড্রেস *</label>
+                <input type="email" id="contactEmail" class="form-control" placeholder="example@email.com" required />
+                <div class="field-error-msg" id="contactEmailError"></div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <!-- Phone -->
+              <div class="form-group">
+                <label for="contactPhone" class="form-label">ফোন নম্বর *</label>
+                <input type="tel" id="contactPhone" class="form-control" placeholder="০১৭০০-০০০০০০" required />
+                <div class="field-error-msg" id="contactPhoneError"></div>
+              </div>
+
+              <!-- Subject -->
+              <div class="form-group">
+                <label for="contactSubject" class="form-label">বিষয় নির্বাচন করুন *</label>
+                <select id="contactSubject" class="form-control" required>
+                  <option value="" disabled selected>বিষয় বাছাই করুন</option>
+                  <option value="General Inquiry">সাধারণ তথ্য জিজ্ঞাসা</option>
+                  <option value="Membership Plans">মেম্বারশিপ প্ল্যান সংক্রান্ত</option>
+                  <option value="Personal Training">পার্সোনাল ট্রেনিং</option>
+                  <option value="Free Gym Tour">ফ্রি জিম ট্যুর বুকিং</option>
+                </select>
+                <div class="field-error-msg" id="contactSubjectError"></div>
+              </div>
+            </div>
+
+            <!-- Message -->
+            <div class="form-group">
+              <label for="contactMessage" class="form-label">আপনার বার্তা *</label>
+              <textarea id="contactMessage" class="form-control" rows="4" placeholder="আপনার ফিটনেস ব্যাকগ্রাউন্ড এবং লক্ষ্য সম্পর্কে লিখুন..." required></textarea>
+              <div class="field-error-msg" id="contactMessageError"></div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="contactSubmitBtn">
+              <i class="fa-solid fa-paper-plane"></i> বার্তা পাঠান
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       12. PROJECT TEAM SECTION (College Project Contributors)
+       ========================================================================= -->
+  <section class="section project-team-section" id="team">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <i class="fa-solid fa-users-gear"></i> প্রজেক্ট টিম
+        </div>
+        <h2 class="section-title">প্রজেক্ট <span>টিম মেম্বারগণ</span></h2>
+        <p class="section-subtitle">
+          এই ওয়েবসাইটটি আমাদের কলেজ প্রজেক্টের অংশ হিসেবে সফলভাবে তৈরি করা হয়েছে। আমাদের ডেডিকেটেড টিম সদস্যদের পরিচিতি:
+        </p>
+      </div>
+
+      <!-- Top Row: Team Leader (1 Card on Top) -->
+      <div class="team-leader-wrapper">
+        <div class="team-member-card leader-card">
+          <div class="leader-crown-badge">
+            <i class="fa-solid fa-crown"></i> টিম লিডার (Team Leader)
+          </div>
+          <div class="team-card-inner">
+            <div class="team-avatar-wrapper">
+              <img src="src/masum.jpeg" alt="MD Masum Parvej" class="team-avatar" />
+              <span class="team-status-indicator" title="টিম লিডার"><i class="fa-solid fa-star"></i></span>
+            </div>
+            <div class="team-info">
+              <h3 class="team-member-name">MD Masum Parvej</h3>
+              <div class="team-role-title">প্রজেক্ট টিম লিডার & লিড ডেভেলপার</div>
+              <div class="team-meta-badges">
+                <div class="team-meta-item">
+                  <span class="meta-label"><i class="fa-solid fa-laptop-code"></i> ডিপার্টমেন্ট:</span>
+                  <span class="meta-value">Computer 7th</span>
+                </div>
+                <div class="team-meta-item">
+                  <span class="meta-label"><i class="fa-solid fa-id-badge"></i> রোল নম্বর:</span>
+                  <span class="meta-value highlight">716263</span>
+                </div>
+                <div class="team-meta-item">
+                  <span class="meta-label"><i class="fa-solid fa-file-signature"></i> রেজিস্ট্রেশন:</span>
+                  <span class="meta-value">1502249357</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Row: Team Members (3 Cards Grid) -->
+      <div class="team-members-grid">
+        <!-- Member 1: Mst Toshiba Nahar Jonaki -->
+        <div class="team-member-card">
+          <div class="member-role-badge">
+            <i class="fa-solid fa-user-check"></i> টিম মেম্বার
+          </div>
+          <div class="team-card-inner">
+            <div class="team-avatar-wrapper">
+              <img src="src/jonaki.jpg" alt="Mst Toshiba Nahar Jonaki" class="team-avatar" />
+            </div>
+            <div class="team-info">
+              <h3 class="team-member-name">Mst Toshiba Nahar Jonaki</h3>
+              <div class="team-role-title">টিম মেম্বার & ডিজাইনার</div>
+              <div class="team-meta-badges">
+                <div class="team-meta-item">
+                  <span class="meta-label"><i class="fa-solid fa-laptop-code"></i> ডিপার্টমেন্ট:</span>
+                  <span class="meta-value">Computer 7th</span>
+                </div>
+                <div class="team-meta-item">
+                  <span class="meta-label"><i class="fa-solid fa-id-badge"></i> রোল নম্বর:</span>
+                  <span class="meta-value highlight">716360</span>
+                </div>
+                <div class="team-meta-item">
+                  <span class="meta-label"><i class="fa-solid fa-file-signature"></i> রেজিস্ট্রেশন:</span>
+                  <span class="meta-value">1502249316</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Member 2: Mst Afsana Urmi -->
+        <div class="team-member-card">
+          <div class="member-role-badge">
+            <i class="fa-solid fa-user-check"></i> টিম মেম্বার
+          </div>
+          <div class="team-card-inner">
+            <div class="team-avatar-wrapper">
+              <img src="src/urmi.jpg" alt="Mst Afsana Urmi" class="team-avatar" />
+            </div>
+            <div class="team-info">
+              <h3 class="team-member-name">Mst Afsana Urmi</h3>
+              <div class="team-role-title">টিম মেম্বার & রিসার্চার</div>
+              <div class="team-meta-badges">
+                <div class="team-meta-item">
+                  <span class="meta-label"><i class="fa-solid fa-laptop-code"></i> ডিপার্টমেন্ট:</span>
+                  <span class="meta-value">Computer 7th</span>
+                </div>
+                <div class="team-meta-item">
+                  <span class="meta-label"><i class="fa-solid fa-id-badge"></i> রোল নম্বর:</span>
+                  <span class="meta-value highlight">716338</span>
+                </div>
+                <div class="team-meta-item">
+                  <span class="meta-label"><i class="fa-solid fa-file-signature"></i> রেজিস্ট্রেশন:</span>
+                  <span class="meta-value">1502249326</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Member 3: Mst Khadija Akter -->
+        <div class="team-member-card">
+          <div class="member-role-badge">
+            <i class="fa-solid fa-user-check"></i> টিম মেম্বার
+          </div>
+          <div class="team-card-inner">
+            <div class="team-avatar-wrapper">
+              <img src="src/khadija.jpg" alt="Mst Khadija Akter" class="team-avatar" />
+            </div>
+            <div class="team-info">
+              <h3 class="team-member-name">Mst Khadija Akter</h3>
+              <div class="team-role-title">টিম মেম্বার & কন্টেন্ট কিউরেটর</div>
+              <div class="team-meta-badges">
+                <div class="team-meta-item">
+                  <span class="meta-label"><i class="fa-solid fa-laptop-code"></i> ডিপার্টমেন্ট:</span>
+                  <span class="meta-value">Computer 7th</span>
+                </div>
+                <div class="team-meta-item">
+                  <span class="meta-label"><i class="fa-solid fa-id-badge"></i> রোল নম্বর:</span>
+                  <span class="meta-value highlight">716334</span>
+                </div>
+                <div class="team-meta-item">
+                  <span class="meta-label"><i class="fa-solid fa-file-signature"></i> রেজিস্ট্রেশন:</span>
+                  <span class="meta-value">1502249329</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       13. FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: About -->
+        <div class="footer-col footer-about">
+          <a href="#home" class="nav-logo">
+            <i class="fa-solid fa-dumbbell"></i>
+            <span>Fit</span>Zone
+          </a>
+          <p>
+            ফিটজোন একটি আধুনিক ফিটনেস ও অ্যাথলেটিক প্রশিক্ষণ কেন্দ্র। উন্নত যন্ত্রপাতি, অভিজ্ঞ ট্রেইনার এবং স্বাস্থ্যবান্ধব পরিবেশের মাধ্যমে মানুষের সুস্থ জীবনধারা গড়ে তোলাই আমাদের লক্ষ্য।
+          </p>
+          <div class="footer-socials">
+            <a href="#home" class="footer-social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#home" class="footer-social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#home" class="footer-social-btn" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#home" class="footer-social-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col footer-links">
+          <h4>কুইক লিংকস</h4>
+          <ul>
+            <li><a href="#home"><i class="fa-solid fa-chevron-right"></i> হোম পেজ</a></li>
+            <li><a href="#about"><i class="fa-solid fa-chevron-right"></i> আমাদের সম্পর্কে</a></li>
+            <li><a href="#exercises"><i class="fa-solid fa-chevron-right"></i> ব্যায়ামের তালিকা</a></li>
+            <li><a href="#trainers"><i class="fa-solid fa-chevron-right"></i> আমাদের ট্রেইনারগণ</a></li>
+            <li><a href="#membership"><i class="fa-solid fa-chevron-right"></i> মেম্বারশিপ প্ল্যান</a></li>
+            <li><a href="#bmi"><i class="fa-solid fa-chevron-right"></i> বিএমআই ক্যালকুলেটর</a></li>
+            <li><a href="#team"><i class="fa-solid fa-chevron-right"></i> প্রজেক্ট টিম</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Opening Hours -->
+        <div class="footer-col">
+          <h4>খোলা থাকার সময়</h4>
+          <ul class="footer-hours-list">
+            <li><span>সোমবার - শুক্রবার:</span> <span>ভোর ৫:০০ - রাত ১১:০০</span></li>
+            <li><span>শনিবার:</span> <span>সকাল ৬:০০ - রাত ৯:০০</span></li>
+            <li><span>রবিবার:</span> <span>সকাল ৭:০০ - রাত ৮:০০</span></li>
+            <li><span>সরকারি ছুটির দিন:</span> <span>সকাল ৮:০০ - বিকাল ৪:০০</span></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact Info -->
+        <div class="footer-col">
+          <h4>যোগাযোগ</h4>
+          <ul class="footer-contact-list">
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>১২৪ ফিটনেস বুলেভার্ড, ধানমন্ডি, ঢাকা ১২০৯</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <span>+৮৮০ ১৭০০-১২৩৪৫৬</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <span>contact@fitzonegym.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; ২০২৬ FitZone Fitness & Gym. সর্বস্বত্ব সংরক্ষিত। কলেজ প্রজেক্টের জন্য নির্মিত।</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- =========================================================================
+       13. MODALS & POPUPS
+       ========================================================================= -->
+
+  <!-- Membership Confirmation Modal -->
+  <div class="modal-overlay" id="planModal">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="closePlanModal" aria-label="Close modal">&times;</button>
+      <div class="modal-icon">
+        <i class="fa-solid fa-check"></i>
+      </div>
+      <h3 class="modal-title" id="selectedPlanName">নির্বাচিত মেম্বারশিপ</h3>
+      <p class="modal-subtitle">ফি: <strong id="selectedPlanPrice" style="color: var(--primary);">৳০</strong></p>
+      
+      <form id="planConfirmForm">
+        <div class="form-group">
+          <label for="planMemberName" class="form-label">আপনার পূর্ণ নাম</label>
+          <input type="text" id="planMemberName" class="form-control" placeholder="আপনার নাম লিখুন" required />
+        </div>
+        <div class="form-group">
+          <label for="planMemberEmail" class="form-label">আপনার ইমেইল এড্রেস</label>
+          <input type="email" id="planMemberEmail" class="form-control" placeholder="আপনার ইমেইল লিখুন" required />
+        </div>
+        <div class="form-group">
+          <label for="planStartDate" class="form-label">শুরুর পছন্দের তারিখ</label>
+          <input type="date" id="planStartDate" class="form-control" required />
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">
+          <i class="fa-solid fa-circle-check"></i> মেম্বারশিপ নিশ্চিত করুন
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Exercise Technique Modal -->
+  <div class="modal-overlay" id="exerciseModal">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="closeExerciseModal" aria-label="Close modal">&times;</button>
+      <div class="modal-icon" style="background: rgba(0, 122, 255, 0.12); color: #007aff;">
+        <i class="fa-solid fa-dumbbell"></i>
+      </div>
+      <h3 class="modal-title" id="exerciseModalTitle">ব্যায়ামের সঠিক কৌশল</h3>
+      <div style="text-align: center; margin-bottom: 15px;">
+        <span class="badge badge-muscle" id="exerciseModalMuscle" style="margin-right: 6px;">পেশী</span>
+        <span class="badge badge-diff-intermediate" id="exerciseModalDiff">কঠিনতা</span>
+      </div>
+      <p id="exerciseModalDesc" style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 16px; line-height: 1.6;"></p>
+      
+      <h4 style="font-size: 1rem; margin-bottom: 10px; color: var(--text-main);">সঠিক নিয়ম ও টিপস:</h4>
+      <ul id="exerciseModalTips" style="display: flex; flex-direction: column; gap: 8px; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 20px;"></ul>
+      
+      <button type="button" class="btn btn-outline-dark btn-block" onclick="document.getElementById('exerciseModal').classList.remove('active');">
+        বুঝেছি
+      </button>
+    </div>
+  </div>
+
+  <!-- External JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>

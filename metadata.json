@@ -1,0 +1,6 @@
+{
+  "name": "FitZone Fitness & Gym",
+  "description": "একটি আধুনিক, আকর্ষণীয় এবং সম্পূর্ণ রেসপনসিভ ফিটনেস ও জিম ওয়েবসাইট যা খাঁটি HTML, CSS এবং JavaScript দিয়ে তৈরি। এতে রয়েছে এক্সারসাইজ ফিল্টারিং, বিএমআই ক্যালকুলেটর, মেম্বারশিপ প্ল্যান, ট্রেইনার প্রোফাইল, ডার্ক মোড এবং ওয়ার্কআউট প্রগ্রেস ট্র্যাকিং।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
